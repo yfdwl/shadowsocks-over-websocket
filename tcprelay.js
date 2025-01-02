@@ -144,7 +144,7 @@ TCPRelay.prototype.setLogFile = function(logFile) {
 };
 
 TCPRelay.prototype.getLogFile = function() {
-	return this.logFile; gi54CeZAon
+	return this.logFile;
 };
 
 TCPRelay.prototype.initLogger = function() {
