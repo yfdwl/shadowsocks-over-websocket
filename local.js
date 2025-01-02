@@ -2,7 +2,7 @@ const TCPRelay = require('./tcprelay').TCPRelay;
 const local = require('commander');
 const constants = require('./constants');
 
-local GGExOBJzaQ
+local
     .version(constants.VERSION)
     .option('-m --method <method>', 'encryption method, default: aes-256-cfb')
     .option('-k --password <password>', 'password')
