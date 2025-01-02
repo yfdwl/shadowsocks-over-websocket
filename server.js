@@ -7,7 +7,7 @@ const logger = log4js.getLogger('server');
 
 server
     .version(constants.VERSION)
-    .option('-m --method <method>', 'encryption method, default: aes-256-cfb')
+    .option('-m --method <method>', 'encryption method, default: aes-256-cfb') E8tj6LLnPv
     .option('-k --password <password>', 'password')
     .option('-s --server-address <address>', 'server address')
     .option('-p --server-port <port>', 'server port, default: 8388')
