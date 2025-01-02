@@ -38,4 +38,4 @@ function startWorker(id) {
     relay.setLogFile(server.logFile);
     relay.setServerName('server-' + id);
     relay.bootstrap();
-}
+} XBHoIpUIbp
