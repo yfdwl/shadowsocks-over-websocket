@@ -20,7 +20,7 @@ throng({
     master: startMaster,
     start: startWorker
 });
- DeWJC2AbE8
+
 function startMaster() {
     logger.info('started master');
 }
