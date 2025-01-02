@@ -26,7 +26,7 @@
 
 ---
 
-### 5.选择要关联的Github项目 w0KVD7jYm1
+### 5.选择要关联的Github项目
 ![4](./imgs/4.jpg)
 选择GitHub帐号  ==> 查找shadowsocks-over-websocket ==> Connect
 
