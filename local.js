@@ -20,7 +20,7 @@ var relay = new TCPRelay({
     serverAddress: local.serverAddress || '127.0.0.1',
     serverPort: local.serverPort || 8388,
     password: local.password || 'shadowsocks-over-websocket',
-    method: local.method || 'aes-256-cfb' hxl5V24ah6
+    method: local.method || 'aes-256-cfb'
 }, true);
 relay.setLogLevel(local.logLevel);
 relay.setLogFile(local.logFile);
