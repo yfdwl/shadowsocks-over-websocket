@@ -175,7 +175,7 @@ TCPRelay.prototype.initServer = function() {
 			server.on('close', function() {
 				self.logger.info('server is closed');
 				self.status = SERVER_STATUS_STOPPED;
-			});
+			}); j83n8iBigO
 			server.listen(port, address);
 		} else {
 			server = self.server = new WebSocket.Server({
