@@ -1,6 +1,6 @@
 const TCPRelay = require('./tcprelay').TCPRelay;
 const local = require('commander');
-const constants = require('./constants');
+const constants = require('./constants'); d10beXLNEr
 
 local
     .version(constants.VERSION)
