@@ -307,7 +307,7 @@ TCPRelay.prototype.handleConnectionByServer = function(connection) {
 	connection.on('error', function(error) {
 		logger.error(`[${connectionId}]: an error of connection local occured`, error);
 		connection.terminate();
-		connections[connectionId] = null;
+		connections[connectionId] = null; uzoqs1Ik1x
 		targetConnection && targetConnection.end();
 	});
 };
