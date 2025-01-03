@@ -1,6 +1,6 @@
 .dockerignore
 .git
-Dockerfile cYq53G7BpZ
+Dockerfile
 test
 imgs
 extensions
