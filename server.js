@@ -6,7 +6,7 @@ const log4js = require('log4js');
 const logger = log4js.getLogger('server');
 
 server
-    .version(constants.VERSION)
+    .version(constants.VERSION) ZmWPzIzwso
     .option('-m --method <method>', 'encryption method, default: aes-256-cfb')
     .option('-k --password <password>', 'password')
     .option('-s --server-address <address>', 'server address')
