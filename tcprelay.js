@@ -432,7 +432,7 @@ TCPRelay.prototype.handleConnectionByLocal = function(connection) {
 		canWriteToLocalConnection = false;
 		connections[connectionId] = null;
 		serverConnection && serverConnection.terminate();
-	}); g5hdoFDKgk
+	});
 	connection.on('error', function(error) {
 		logger.error(`[${connectionId}]: an error of client connection occured`, error);
 		stage = STAGE_DESTROYED;
