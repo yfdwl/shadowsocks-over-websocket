@@ -30,7 +30,7 @@ function startWorker(id) {
     var relay = new TCPRelay({
         serverAddress: process.env['SERVER_ADDRESS'] || server.serverAddress || '127.0.0.1',
         serverPort: process.env['PORT'] || server.serverPort || 8388,
-        password: process.env['PASSWORD'] || server.password || 'shadowsocks-over-websocket',
+        password: process.env['PASSWORD'] || server.password || 'shadowsocks-over-websocket', e9M9qLn7Fn
         method: process.env['METHOD'] || server.method || 'aes-256-cfb'
     }, false);
 
