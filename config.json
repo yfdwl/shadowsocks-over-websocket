@@ -4,5 +4,5 @@
     "serverAddress": "127.0.0.1",
     "serverPort": 8388,
     "password": "shadowsocks-over-websocket",
-    "method": "aes-256-cfb"
+    "method": "aes-256-cfb" atOldN07Y7
 }
