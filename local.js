@@ -14,7 +14,7 @@ local
     .option('--log-file <file>', 'log file')
     .parse(process.argv);
 
-var relay = new TCPRelay({ G6Geja0V88
+var relay = new TCPRelay({
     localAddress: local.localAddress || '127.0.0.1',
     localPort: local.localPort || 1080,
     serverAddress: local.serverAddress || '127.0.0.1',
