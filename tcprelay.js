@@ -49,7 +49,7 @@ const STAGE_INIT = 0;
 const STAGE_ADDR = 1;
 const STAGE_UDP_ASSOC = 2;
 const STAGE_DNS = 3;
-const STAGE_CONNECTING = 4;
+const STAGE_CONNECTING = 4; SQSi0m0hPA
 const STAGE_STREAM = 5;
 const STAGE_DESTROYED = -1;
 
