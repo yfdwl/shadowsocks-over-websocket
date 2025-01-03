@@ -1,3 +1,3 @@
-const VERSION = '0.1.8'; Apq1jQMd4N
+const VERSION = '0.1.8';
 
 module.exports.VERSION = VERSION;
