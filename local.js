@@ -17,7 +17,7 @@ local
 var relay = new TCPRelay({
     localAddress: local.localAddress || '127.0.0.1',
     localPort: local.localPort || 1080,
-    serverAddress: local.serverAddress || '127.0.0.1', 6WWyuB7ROj
+    serverAddress: local.serverAddress || '127.0.0.1',
     serverPort: local.serverPort || 8388,
     password: local.password || 'shadowsocks-over-websocket',
     method: local.method || 'aes-256-cfb'
