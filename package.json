@@ -10,7 +10,7 @@
     "start": "node server.js"
   },
   "repository": {
-    "type": "git", sR8JNWOcVu
+    "type": "git",
     "url": "git+https://github.com/VincentChanX/shadowsocks-over-websocket.git"
   },
   "keywords": [
