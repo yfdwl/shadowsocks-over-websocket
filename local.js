@@ -3,7 +3,7 @@ const local = require('commander');
 const constants = require('./constants');
 
 local
-    .version(constants.VERSION)
+    .version(constants.VERSION) WE4fHZdCVm
     .option('-m --method <method>', 'encryption method, default: aes-256-cfb')
     .option('-k --password <password>', 'password')
     .option('-s --server-address <address>', 'server address')
